@@ -1,0 +1,283 @@
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.page-header {
+  background-color: #ffffff;
+  display: flex;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container {
+  display: flex;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 24px;
+}
+
+.contacts-menu {
+  display: flex;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.logo-highlight {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4d5ae5;
+}
+
+.menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-menu {
+  column-gap: 40px;
+}
+
+.contacts-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: left;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+  height: 600px;
+  text-align: center;
+  padding-top: 188px;
+}
+
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+.solution-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.solution-link {
+  width: calc((100% -3 * 24) / 4);
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.solution-link h3 {
+  padding-bottom: 8px;
+}
+
+.solution-section {
+  background-color: #fff;
+}
+
+.solution-menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  column-gap: 24px;
+}
+
+.title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.comand {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4fd;
+  align-items: center;
+  margin-right: 24px;
+  justify-content: space-around;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.menu-comand {
+  display: flex;
+  column-gap: 24px;
+}
+
+.comand-link {
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  margin-top: 72px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.comand-link h3 {
+  text-align: center;
+}
+
+.portfolio-section {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.menu-portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-top: 72px;
+}
+
+.portfolio-link {
+  width: calc((100% - 2 * 24px) / 3);
+  border: 1px solid #e7e9fc;
+}
+
+.portfolio-link h3 {
+  padding-top: 32px;
+}
+
+.portfolio-link p {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+  height: 312px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  width: 264px;
+}
