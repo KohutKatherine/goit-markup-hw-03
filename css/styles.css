@@ -94,6 +94,7 @@ body {
 .menu {
   display: flex;
   column-gap: 24px;
+  gap: 40px;
 }
 
 .contacts-menu {
@@ -127,6 +128,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -181,7 +183,7 @@ body {
 }
 
 .solution-link {
-  width: calc((100% -3 * 24) / 4);
+  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: stretch;
 }
@@ -192,12 +194,18 @@ body {
 
 .solution-section {
   background-color: #fff;
+  padding: 120px 0;
 }
 
 .solution-menu {
   padding-top: 120px;
   padding-bottom: 120px;
-  column-gap: 24px;
+  gap: 24px;
+  display: flex;
+}
+
+.title-solution {
+  margin-bottom: 8px;
 }
 
 .title-hero {
