@@ -47,8 +47,12 @@ button {
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
+  border: none;
+  margin: auto;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
@@ -156,7 +160,7 @@ body {
   background-color: #2e2f42;
   height: 600px;
   text-align: center;
-  padding-top: 188px;
+  padding: 188px 0 188px;
 }
 
 .hero-section h1 {
@@ -196,7 +200,11 @@ body {
   column-gap: 24px;
 }
 
-.title {
+.title-hero {
+  max-width: 496px;
+}
+
+.title-comand {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -204,6 +212,7 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .comand {
@@ -280,4 +289,9 @@ body {
 .footer-text {
   color: #f4f4fd;
   width: 264px;
+}
+
+.logo footer-text {
+  display: inline-block;
+  margin-bottom: 16px;
 }
