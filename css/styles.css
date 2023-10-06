@@ -308,7 +308,8 @@ body {
   width: 264px;
 }
 
-.link .footer-text {
+.link,
+.logo-highlight {
   display: inline-block;
   margin-bottom: 16px;
 }
