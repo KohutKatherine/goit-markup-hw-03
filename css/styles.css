@@ -251,6 +251,10 @@ body {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.employee-info {
+  padding: 32px 0;
+}
+
 .title-employee {
   text-align: center;
   margin-bottom: 8px;
@@ -260,6 +264,10 @@ body {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.employee-text {
+  text-align: center;
 }
 
 .menu-portfolio {
@@ -300,7 +308,7 @@ body {
   width: 264px;
 }
 
-.link footer-text {
+.link .footer-text {
   display: inline-block;
   margin-bottom: 16px;
 }
