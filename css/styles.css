@@ -100,13 +100,13 @@ body {
   gap: 40px;
 }
 
-/* .menu li {
+.list-item {
   margin-right: 40px;
 }
 
-.menu li:last-child {
-  margin-right: 0px;
-} */
+.list-item:last-child {
+  margin-right: 0;
+}
 
 .contacts-menu {
   display: flex;
