@@ -252,6 +252,10 @@ body {
   margin-bottom: 72px;
 }
 
+.title-portfolio {
+  margin-bottom: 8px;
+}
+
 .comand {
   display: flex;
   flex-direction: column;
@@ -293,6 +297,11 @@ body {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .employee-text {
