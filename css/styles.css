@@ -96,15 +96,17 @@ body {
 
 .menu {
   display: flex;
+  list-style-type: none;
+  gap: 40px;
 }
 
-.menu li {
+/* .menu li {
   margin-right: 40px;
 }
 
 .menu li:last-child {
   margin-right: 0px;
-}
+} */
 
 .contacts-menu {
   display: flex;
