@@ -218,7 +218,7 @@ body {
 }
 
 .visually-hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .title-solution {
