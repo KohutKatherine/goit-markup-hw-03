@@ -96,8 +96,14 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 24px;
-  gap: 40px;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
 }
 
 .contacts-menu {
