@@ -141,10 +141,6 @@ body {
   margin-left: auto;
 }
 
-.contacts-menu {
-  column-gap: 40px;
-}
-
 .list-item {
   margin-right: 40px;
 }
@@ -184,12 +180,22 @@ body {
 .solution-menu {
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .solution-link {
-  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: stretch;
+  margin-right: 24px;
+}
+.solution-link:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
+.solution-link:last-child {
+  margin-right: 0;
 }
 
 .solution-link h3 {
@@ -201,11 +207,8 @@ body {
   padding: 120px 0;
 }
 
-.solution-menu {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  gap: 24px;
-  display: flex;
+.visually-hidden {
+  display: none;
 }
 
 .title-solution {
