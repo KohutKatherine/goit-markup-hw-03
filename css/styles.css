@@ -192,6 +192,7 @@ body {
   flex-direction: column;
   align-items: stretch;
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .solution-link:first-child {
   width: calc((100% - 72px) / 4);
